@@ -121,7 +121,7 @@
 ### Minor Changes
 
 - Initial release of @ai-sdk-tools/cache
-- Simple caching wrapper for AI SDK tools with zero configuration
+- Simple caching wrapper for LOVEUI AI TOOLS with zero configuration
 - LRU cache implementation with TTL support
 - Support for custom cache keys and conditional caching
 - Cache statistics and management methods
@@ -134,5 +134,5 @@
 - **Flexible Caching**: TTL, max size, custom key generation
 - **Performance Monitoring**: Built-in cache statistics and callbacks
 - **Memory Efficient**: LRU eviction policy prevents memory leaks
-- **TypeScript Support**: Full type safety with AI SDK tools
+- **TypeScript Support**: Full type safety with LOVEUI AI TOOLS
 - **Lightweight**: ~2KB bundle size with no dependencies

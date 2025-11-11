@@ -1,6 +1,6 @@
 # @ai-sdk-tools/debug
 
-Shared debug utilities for AI SDK Tools packages using Pino.
+Shared debug utilities for LOVEUI AI TOOLS packages using Pino.
 
 ## Installation
 

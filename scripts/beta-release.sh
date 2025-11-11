@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# Beta Release Script for AI SDK Tools
+# Beta Release Script for LOVEUI AI TOOLS
 # This script helps create and manage beta releases
 
 set -e
 
-echo "🚀 AI SDK Tools Beta Release Helper"
+echo "🚀 LOVEUI AI TOOLS Beta Release Helper"
 echo "=================================="
 
 # Check if we're in beta mode

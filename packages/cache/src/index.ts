@@ -1,7 +1,7 @@
 /**
  * @ai-sdk-tools/cache
  * 
- * Simple caching wrapper for AI SDK tools. Cache expensive tool executions 
+ * Simple caching wrapper for LOVEUI AI TOOLS. Cache expensive tool executions 
  * with zero configuration.
  */
 

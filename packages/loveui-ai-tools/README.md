@@ -20,7 +20,7 @@ npm install ai @ai-sdk/react react react-dom zod zustand
 
 ## What's Included
 
-This package includes all AI SDK tools:
+This package includes all LOVEUI AI TOOLS:
 
 - **`agents`** - Multi-agent orchestration with handoffs and routing
 - **`artifacts`** - Structured artifact streaming for React components  

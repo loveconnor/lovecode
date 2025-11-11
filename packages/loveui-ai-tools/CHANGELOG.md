@@ -66,7 +66,7 @@
 
 ### Initial Release
 
-- Complete toolkit package with all AI SDK tools
+- Complete toolkit package with all LOVEUI AI TOOLS
 - Namespaced exports for:
   - `agents` - Multi-agent orchestration
   - `artifacts` - Artifact streaming

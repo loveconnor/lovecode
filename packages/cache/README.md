@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/@ai-sdk-tools%2Fcache.svg)](https://badge.fury.io/js/@ai-sdk-tools%2Fcache)
 
-Universal caching wrapper for AI SDK tools. Cache expensive tool executions with zero configuration - works with regular tools, streaming tools, and artifacts.
+Universal caching wrapper for LOVEUI AI TOOLS. Cache expensive tool executions with zero configuration - works with regular tools, streaming tools, and artifacts.
 
 ## Why Cache Tools?
 
@@ -335,4 +335,4 @@ Contributions are welcome! Please read our [contributing guide](../../CONTRIBUTI
 
 ## License
 
-MIT © [AI SDK Tools](https://github.com/ai-sdk-tools/ai-sdk-tools)
+MIT © [LOVEUI AI TOOLS](https://github.com/ai-sdk-tools/ai-sdk-tools)

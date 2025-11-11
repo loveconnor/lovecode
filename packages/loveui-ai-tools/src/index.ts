@@ -1,7 +1,7 @@
 /**
  * loveui-ai-tools - Complete toolkit for building AI applications
  *
- * This package provides direct access to all AI SDK tools:
+ * This package provides direct access to all LOVEUI AI TOOLS:
  * - agents: Multi-agent orchestration with handoffs and routing
  * - artifacts: Structured artifact streaming for React components
  * - cache: Universal caching for AI tool executions

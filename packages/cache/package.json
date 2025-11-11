@@ -1,7 +1,7 @@
 {
   "name": "@ai-sdk-tools/cache",
   "version": "1.0.8",
-  "description": "Simple caching wrapper for AI SDK tools - cache expensive tool executions with zero configuration",
+  "description": "Simple caching wrapper for LOVEUI AI TOOLS - cache expensive tool executions with zero configuration",
   "keywords": [
     "ai",
     "ai-sdk",

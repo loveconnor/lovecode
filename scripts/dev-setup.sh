@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Development setup script for AI SDK Tools monorepo
+# Development setup script for LOVEUI AI TOOLS monorepo
 # This script sets up the workspace for local development
 
-echo "🚀 Setting up AI SDK Tools for development..."
+echo "🚀 Setting up LOVEUI AI TOOLS for development..."
 
 # Install dependencies
 echo "📦 Installing dependencies..."
