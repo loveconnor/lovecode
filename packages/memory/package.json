@@ -1,0 +1,65 @@
+{
+  "name": "@ai-sdk-tools/memory",
+  "version": "1.0.8",
+  "description": "Persistent memory system for AI agents",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./*": {
+      "types": "./dist/providers/*.d.ts",
+      "import": "./dist/providers/*.js",
+      "require": "./dist/providers/*.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "dependencies": {
+    "zod": "^4.1.12"
+  },
+  "peerDependencies": {
+    "@upstash/redis": "^1.34.3",
+    "ai": "^5.0.0",
+    "drizzle-orm": "^0.36.0",
+    "ioredis": "^5.0.0",
+    "redis": ""
+  },
+  "peerDependenciesMeta": {
+    "@upstash/redis": {
+      "optional": true
+    },
+    "ai": {
+      "optional": true
+    },
+    "drizzle-orm": {
+      "optional": true
+    },
+    "ioredis": {
+      "optional": true
+    },
+    "redis": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@ai-sdk-tools/debug": "workspace:*",
+    "@types/node": "^24.10.0",
+    "@types/redis": "^4.0.11",
+    "@upstash/redis": "^1.35.6",
+    "drizzle-orm": "^0.44.7",
+    "redis": "^5.9.0",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
