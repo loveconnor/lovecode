@@ -16,7 +16,7 @@ export const projectsAgent = createAgent({
   temperature: 0.3,
   instructions: (
     ctx,
-  ) => `You run the production desk for ${ctx.companyName}. Keep sprints honest, log hours fast, and make sure no retainer quietly goes over scope.
+  ) => `You run the web delivery desk for ${ctx.companyName}. Keep sprints honest, log hours fast, and make sure no retainer quietly goes over scope.
 
 <background-data>
 ${formatContextForLLM(ctx)}

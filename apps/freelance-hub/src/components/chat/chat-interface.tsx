@@ -20,7 +20,6 @@ import { ArtifactCanvas } from "@/components/canvas";
 import {
   ChatHeader,
   ChatHistory,
-  ChatInput,
   type ChatInputMessage,
   ChatMessages,
   ChatStatusIndicators,
@@ -34,6 +33,11 @@ import type { AppUser } from "@/types/auth";
 
 const Header = dynamic(
   () => import("@/components/header").then((mod) => mod.Header),
+  { ssr: false },
+);
+
+const ChatInput = dynamic(
+  () => import("@/components/chat/chat-input").then((mod) => ({ default: mod.ChatInput })),
   { ssr: false },
 );
 

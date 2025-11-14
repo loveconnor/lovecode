@@ -4,11 +4,11 @@ import { dateRangeSchema } from "@/ai/types/filters";
 import { generateCustomerProfitability } from "@/ai/utils/fake-data";
 
 export const talentUtilizationTool = tool({
-  description: `Analyze a freelancer's utilization, revenue impact, and available hours.`,
+  description: `Analyze a freelance web developer's utilization, revenue impact, and available hours.`,
 
   inputSchema: z
     .object({
-      talentId: z.string().describe("Talent ID or handle"),
+      talentId: z.string().describe("Web developer ID or handle"),
     })
     .merge(dateRangeSchema),
 

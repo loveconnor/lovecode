@@ -17,15 +17,15 @@ import type { LanguageModel, Tool } from "ai";
  */
 export function formatAgentCapabilities(): string {
   return `<agent-capabilities>
-research: Deep dives on purchases, tools, or industries before the studio commits
+research: Deep dives on tooling/vendor bets before web delivery commits
 general: Greetings, quick answers, web search, routing
 studioOps: Inbox triage, document pulls, balance checks, exports
-pipeline: Bookings, runway, burn, "bench board" visualizations
+pipeline: Web project bookings, runway, burn, "bench board" visualizations
 marketIntel: Rate trends, demand signals, stress testing
-payouts: Ledger lookups, unusual payments, large cash movement
+payouts: Ledger lookups, unusual web dev payments, large cash movement
 payments: Invoice creation, status checks, overdue follow-ups
 projects: Sprint timers, time logs, retainer variance
-talent: Bench availability, utilization, pairing ideas
+talent: Web developer bench availability, utilization, pairing ideas
 </agent-capabilities>`;
 }
 

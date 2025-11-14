@@ -1,4 +1,4 @@
--- Supabase schema for freelancer hub integrations/preferences
+-- Supabase schema for the developer hub integrations/preferences
 
 create table if not exists public.user_preferences (
   user_id uuid primary key references auth.users(id) on delete cascade,

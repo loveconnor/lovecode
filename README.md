@@ -1,8 +1,8 @@
 # Freelance Hub Workspace
 
 This repo houses **Freelance Hub**, a production-grade workspace where
-producers can coordinate freelancers and contractors, track live bookings,
-and run automations against the finance/talent stack. The project is built
+web program leads can coordinate freelance web developers, monitor site
+delivery pipelines, and run automations against the finance + ops stack. The project is built
 with Next.js (App Router), Supabase Auth, and a suite of internal packages
 for integrations, memory, and agent orchestration.
 

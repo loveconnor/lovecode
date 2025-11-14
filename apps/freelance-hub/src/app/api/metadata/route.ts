@@ -40,16 +40,16 @@ const agentRegistry = [
   {
     agent: pipelineAgent,
     description:
-      "Pipeline desk: bookings, runway, burn, and visual bench reports",
+      "Web delivery desk: site bookings, runway, burn, and bench visuals",
   },
   {
     agent: marketIntelAgent,
     description:
-      "Market intelligence: rate trends, demand signals, stress tests",
+      "Market intelligence: freelance web dev rate trends, demand signals, stress tests",
   },
   {
     agent: payoutsAgent,
-    description: "Payout ledger: inflows, outflows, reconciliation spot-checks",
+    description: "Ledger: inflows/outflows on web work, reconciliation spot-checks",
   },
   {
     agent: paymentsAgent,
@@ -57,15 +57,15 @@ const agentRegistry = [
   },
   {
     agent: projectsAgent,
-    description: "Production desk: sprint timers, logs, project variance",
+    description: "Web delivery desk: sprint timers, logs, project variance",
   },
   {
     agent: talentAgent,
-    description: "Talent bench: availability, utilization, pairing ideas",
+    description: "Web developer bench: availability, utilization, pairing ideas",
   },
   {
     agent: studioOpsAgent,
-    description: "Studio ops: inbox triage, document retrieval, data exports",
+    description: "Web program ops: inbox triage, document retrieval, data exports",
   },
   {
     agent: generalAgent,

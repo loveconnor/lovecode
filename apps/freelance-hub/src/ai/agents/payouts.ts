@@ -8,7 +8,7 @@ export const payoutsAgent = createAgent({
   temperature: 0.3,
   instructions: (
     ctx,
-  ) => `You monitor the payout ledger for ${ctx.companyName}. Surface incoming cash, outgoing payouts, and unusual movement so producers see issues before finance does.
+  ) => `You monitor the payout ledger for ${ctx.companyName}. Surface incoming retainers, freelance web developer payouts, and unusual movement so web leads see issues before finance does.
 
 <background-data>
 ${formatContextForLLM(ctx)}

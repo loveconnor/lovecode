@@ -46,7 +46,7 @@ export const INTEGRATION_PROVIDERS: IntegrationProviderMeta[] = [
   {
     id: "greenhouse",
     name: "Greenhouse Harvest",
-    description: "Import the recruiting bench for the talent agent.",
+    description: "Import the recruiting bench for the web dev agent.",
     fields: [
       {
         id: "apiToken",
@@ -59,7 +59,7 @@ export const INTEGRATION_PROVIDERS: IntegrationProviderMeta[] = [
   {
     id: "notion",
     name: "Notion",
-    description: "Search studio docs and briefs directly from Notion.",
+    description: "Search web ops docs and briefs directly from Notion.",
     fields: [
       {
         id: "apiToken",
@@ -91,7 +91,7 @@ export const INTEGRATION_PROVIDERS: IntegrationProviderMeta[] = [
   {
     id: "linear",
     name: "Linear",
-    description: "Show project progress and delivery health from Linear.",
+    description: "Show web project progress and delivery health from Linear.",
     fields: [
       {
         id: "apiKey",
@@ -123,7 +123,7 @@ export const INTEGRATION_PROVIDERS: IntegrationProviderMeta[] = [
   {
     id: "gmail",
     name: "Gmail",
-    description: "Let Studio Ops triage the shared inbox via Gmail API.",
+    description: "Let web ops triage the shared inbox via Gmail API.",
     fields: [
       {
         id: "accessToken",

@@ -40,7 +40,7 @@ export const TOOL_CONFIGS: Record<string, ToolConfig> = {
   revenue: {
     name: "Pipeline Pulse",
     icon: TrendingUp,
-    description: "Tracking bookings + pipeline momentum",
+    description: "Tracking web project pipeline + deal momentum",
   },
   profitLoss: {
     name: "Deal Desk",
@@ -50,32 +50,32 @@ export const TOOL_CONFIGS: Record<string, ToolConfig> = {
   cashFlow: {
     name: "Cash Drift",
     icon: DollarSign,
-    description: "Following money in/out of the collective",
+    description: "Following money in/out of the web program",
   },
   balanceSheet: {
-    name: "Studio Balance Board",
+    name: "Web Ops Balance Board",
     icon: FileSpreadsheet,
     description: "Visualizing cash, AR, and obligations",
   },
   expenses: {
     name: "Ops Spend",
     icon: Receipt,
-    description: "Breaking down studio expenses",
+    description: "Breaking down web program spend",
   },
   burnRate: {
-    name: "Creative Burn",
+    name: "Web Delivery Burn",
     icon: Flame,
     description: "Comparing burn vs. plan",
   },
   runway: {
-    name: "Booking Runway",
+    name: "Capacity Runway",
     icon: Calendar,
-    description: "Projecting months of runway",
+    description: "Projecting web developer coverage in months",
   },
   spending: {
     name: "Delivery Mix",
     icon: CreditCard,
-    description: "Showing how work is delivered",
+    description: "Showing how web work is delivered",
   },
   taxSummary: {
     name: "Compliance Packet",
@@ -85,7 +85,7 @@ export const TOOL_CONFIGS: Record<string, ToolConfig> = {
 
   // Market intel
   businessHealth: {
-    name: "Studio Health Score",
+    name: "Web Ops Health Score",
     icon: PieChart,
     description: "Scoring overall financial health",
   },
@@ -100,31 +100,31 @@ export const TOOL_CONFIGS: Record<string, ToolConfig> = {
     description: "Simulating worst-case scenarios",
   },
 
-  // Talent bench
+  // Web dev bench
   getTalent: {
-    name: "Talent Profile",
+    name: "Web Dev Profile",
     icon: User,
-    description: "Loading a talent profile",
+    description: "Loading a developer profile",
   },
   listTalent: {
-    name: "Bench Radar",
+    name: "Web Bench Radar",
     icon: Users,
-    description: "Listing available talent",
+    description: "Listing available developers",
   },
   createTalent: {
-    name: "Add Talent",
+    name: "Add Web Dev",
     icon: Users,
-    description: "Drafting a new talent card",
+    description: "Drafting a new developer card",
   },
   updateTalent: {
-    name: "Refresh Talent",
+    name: "Refresh Web Dev",
     icon: User,
-    description: "Updating a talent profile",
+    description: "Updating a developer profile",
   },
   utilization: {
     name: "Utilization Pulse",
     icon: BarChart3,
-    description: "Analyzing availability + hours",
+    description: "Analyzing capacity + hours",
   },
 
   // Payments
@@ -195,12 +195,12 @@ export const TOOL_CONFIGS: Record<string, ToolConfig> = {
   listProjects: {
     name: "Project Roster",
     icon: FolderOpen,
-    description: "Listing studio projects",
+    description: "Listing web projects",
   },
 
-  // Studio ops
+  // Web program ops
   listInbox: {
-    name: "Studio Inbox",
+    name: "Program Inbox",
     icon: Inbox,
     description: "Surfacing inbound documents",
   },
@@ -210,9 +210,9 @@ export const TOOL_CONFIGS: Record<string, ToolConfig> = {
     description: "Checking account balances",
   },
   listDocuments: {
-    name: "Document Vault",
+    name: "Delivery Docs Vault",
     icon: FileArchive,
-    description: "Listing studio documents",
+    description: "Listing program documents",
   },
   exportData: {
     name: "Data Export",

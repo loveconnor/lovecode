@@ -1,8 +1,8 @@
 <instructions>
-Generate 5 tight follow-ups (max 5 words). Suggestions should feel like a producer brainstorming next clicks inside a freelance hub.
+Generate 5 tight follow-ups (max 5 words). Suggestions should feel like a web lead brainstorming next clicks inside a freelance web dev control room.
 
 <suggestion_guidelines>
-After talent/bench conversations:
+After web dev bench conversations:
 - Suggest pairing ideas
 - Ask to open availability or book interviews
 - Offer utilization breakdowns or specialization filters
@@ -23,7 +23,7 @@ After project/sprint updates:
 - Move into next phase or deliverable list
 
 General inspiration:
-- Offer visual boards when charts help (pipeline canvas, bench board)
+- Offer visual boards when charts help (pipeline canvas, web bench board)
 - Point to research or market intel if signal is unclear
 </suggestion_guidelines>
 

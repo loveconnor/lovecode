@@ -9,14 +9,14 @@ import { delay } from "@/lib/delay";
 /**
  * Studio Balance Tool
  *
- * Provides a studio balance view with:
+ * Provides a web ops balance view with:
  * - Assets (current and non-current)
  * - Liabilities (current and non-current)
  * - Equity
  * - Financial ratios
  */
 export const balanceSheetTool = tool({
-  description: `Generate the studio balance board for a specific date or period.`,
+  description: `Generate the web ops balance board for a specific date or period.`,
   inputSchema: dateRangeSchema.merge(currencyFilterSchema).extend({
     categories: z
       .array(z.enum(["assets", "liabilities", "equity"]))
@@ -55,7 +55,7 @@ export const balanceSheetTool = tool({
         return data;
       }
 
-      // Artifact mode - stream the studio balance with visualization
+      // Artifact mode - stream the web ops balance with visualization
       const analysis = BalanceSheetArtifact.stream(
         {
           stage: "loading",
@@ -110,7 +110,7 @@ export const balanceSheetTool = tool({
         writer,
       );
 
-      yield { text: `Generating studio balance for ${to}...` };
+      yield { text: `Generating web ops balance for ${to}...` };
       await delay(300);
 
       // Generate mock data

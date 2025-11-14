@@ -17,13 +17,13 @@ export const getStatusMessage = (status?: AgentStatus | null) => {
       triage: "Thinking...",
       orchestrator: "Coordinating your request...",
       general: "Getting information for you...",
-      pipeline: "Checking on the studio pipeline...",
+      pipeline: "Checking on the web delivery pipeline...",
       payouts: "Reviewing the payout ledger...",
       payments: "Prepping invoices and payouts...",
       projects: "Updating project logs...",
-      talent: "Reviewing the talent bench...",
+      talent: "Reviewing the web dev bench...",
       marketIntel: "Scanning the market pulse...",
-      studioOps: "Grabbing files and balances...",
+      studioOps: "Grabbing web ops files...",
       research: "Researching and analyzing your options...",
     };
 
@@ -41,25 +41,25 @@ export const getToolMessage = (toolName: string | null) => {
     // Reports tools
     revenue: "Charting your pipeline momentum...",
     profitLoss: "Looking at profit per stream...",
-    cashFlow: "Projecting cash hitting the studio...",
-    balanceSheet: "Generating the studio balance board...",
-    expenses: "Reviewing ops spend for the collective...",
-    burnRate: "Checking creative burn vs. plan...",
-    runway: "Calculating booking runway...",
+    cashFlow: "Projecting cash hitting the web program...",
+    balanceSheet: "Generating the web ops balance board...",
+    expenses: "Reviewing web program spend...",
+    burnRate: "Checking web delivery burn vs. plan...",
+    runway: "Calculating web dev capacity runway...",
     spending: "Breaking down delivery mix...",
     taxSummary: "Packaging compliance-ready numbers...",
 
     // Analytics tools
-    businessHealth: "Scoring overall studio health...",
+    businessHealth: "Scoring web org health...",
     cashFlowForecast: "Projecting future cash swing...",
     stressTest: "Running 'what-if' stress scenarios...",
 
     // Talent tools
-    getTalent: "Pulling that talent profile...",
-    listTalent: "Scanning the bench...",
-    createTalent: "Drafting a new talent card...",
-    updateTalent: "Refreshing that talent profile...",
-    utilization: "Calculating utilization + availability...",
+    getTalent: "Pulling that web dev profile...",
+    listTalent: "Scanning the web bench...",
+    createTalent: "Drafting a new web dev card...",
+    updateTalent: "Refreshing that web dev profile...",
+    utilization: "Calculating utilization + capacity...",
 
     // Invoice / payout tools
     listPayouts: "Listing upcoming payouts...",
@@ -81,7 +81,7 @@ export const getToolMessage = (toolName: string | null) => {
     listProjects: "Loading project status...",
 
     // Operations tools
-    listInbox: "Clearing the studio inbox...",
+    listInbox: "Clearing the web program inbox...",
     getBalances: "Checking balances for you...",
     listDocuments: "Opening the right doc...",
     exportData: "Packaging a shareable export...",

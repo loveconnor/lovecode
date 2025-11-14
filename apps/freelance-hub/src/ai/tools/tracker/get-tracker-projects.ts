@@ -8,7 +8,7 @@ import {
 } from "@/lib/integrations";
 
 export const listProjectsTool = tool({
-  description: `List studio projects filtered by status for time tracking.`,
+  description: `List web projects filtered by status for time tracking.`,
 
   inputSchema: z.object({
     status: z

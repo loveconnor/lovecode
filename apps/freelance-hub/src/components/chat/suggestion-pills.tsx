@@ -11,7 +11,7 @@ const SUGGESTIONS = [
   { toolChoice: "revenue", text: "Show the pipeline pulse" },
   { toolChoice: "listPayouts", text: "Any payouts overdue?" },
   { toolChoice: "startSprint", text: "Kick off a sprint timer" },
-  { toolChoice: "businessHealth", text: "How healthy is the studio?" },
+  { toolChoice: "businessHealth", text: "How healthy is web ops?" },
   { toolChoice: "listInbox", text: "What's sitting in the inbox?" },
 ];
 

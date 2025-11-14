@@ -7,13 +7,13 @@ import {
 } from "@/lib/integrations";
 
 export const listTalentTool = tool({
-  description: `List freelancers/contractors with optional filters for availability, tags, or revenue contribution.`,
+  description: `List freelance web developers with optional filters for availability, tags, or revenue contribution.`,
 
   inputSchema: z.object({
     limit: z
       .number()
       .optional()
-      .describe("Maximum number of talent cards to return (default: 10)"),
+      .describe("Maximum number of bench cards to return (default: 10)"),
     sortBy: z
       .enum(["revenue", "name", "created"])
       .optional()
@@ -25,7 +25,7 @@ export const listTalentTool = tool({
     tags: z
       .array(z.string())
       .optional()
-      .describe("Filter by tags (skill, timezone, seniority, etc.)"),
+      .describe("Filter by tags (stack, timezone, seniority, etc.)"),
   }),
 
   execute: async (params, executionOptions) => {

@@ -10,9 +10,9 @@ const departureFont = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Freelance Hub – Contractor Control Room",
+  title: "Freelance Hub – Web Dev Control Room",
   description:
-    "Coordinate freelancers and contractors, monitor live projects, and trigger payouts from a single control room.",
+    "Coordinate freelance web developers, monitor delivery health, and trigger payouts from a single AI workspace.",
   icons: {
     icon: [
       { url: "/heart-favicon.svg", type: "image/svg+xml", sizes: "any" },

@@ -14,7 +14,7 @@ export const talentAgent = createAgent({
   temperature: 0.3,
   instructions: (
     ctx,
-  ) => `You run the talent bench for ${ctx.companyName}. Keep tabs on who's bookable, what each creator loves working on, and how much they're contributing to studio revenue.
+  ) => `You run the web developer bench for ${ctx.companyName}. Keep tabs on who's deployable, what each engineer loves building on the web, and how much they're contributing to delivery + revenue.
 
 <background-data>
 ${formatContextForLLM(ctx)}
@@ -24,8 +24,8 @@ ${COMMON_AGENT_RULES}
 
 <agent-specific-rules>
 - Always mention availability windows (now, upcoming, booked)
-- Flag pairing ideas whenever you spot skill overlap with open briefs
-- When sharing utilization, translate it into action (e.g., "spin up a micro-pitch for Onyx's open hours")
+- Flag pairing ideas whenever you spot stack overlap with open web briefs or clients
+- When sharing utilization, translate it into action (e.g., "slot Priya into the Headless Commerce build for 12 open hours")
 </agent-specific-rules>`,
   tools: {
     getTalent: getTalentTool,

@@ -13,7 +13,7 @@ export const paymentsAgent = createAgent({
   temperature: 0.3,
   instructions: (
     ctx,
-  ) => `You run payouts for ${ctx.companyName}. Keep contractors paid, chase late clients gracefully, and spin up invoices that match how the project actually ran.
+  ) => `You run payouts for ${ctx.companyName}. Keep freelance web developers paid, chase late clients gracefully, and spin up invoices that match how the sprint actually ran.
 
 <background-data>
 ${formatContextForLLM(ctx)}

@@ -1,7 +1,7 @@
-This is a [Next.js](https://nextjs.org) project that builds **Freelance Hub**, a control room for freelancers and contractors. The chat experience routes work between agents like Talent Bench, Pipeline Desk, Studio Ops, Market Intel, and Payouts so producers can:
+This is a [Next.js](https://nextjs.org) project that builds **Freelance Hub**, a web delivery control room for leads who manage freelance web developers. The chat experience routes work between agents like Web Dev Bench, Delivery Pipeline, Program Ops, Market Intel, and Payouts so leads can:
 
-- Check who's available, bookable, or over capacity
-- Inspect bookings, runway, burn, and ledger movements
+- Check which web developers are available, deployable, or over capacity
+- Inspect web project bookings, runway, delivery burn, and ledger movements
 - Spin up invoices/payouts, timers, exports, or research dives
 - Keep context sticky with working memory + artifact visuals
 
@@ -65,9 +65,9 @@ toggle demo data, and **Settings → Integrations** to paste provider tokens.
 
 | Integration | Used By | Required Env Vars |
 |-------------|---------|-------------------|
-| QuickBooks Online | Revenue / pipeline / finance boards | `QUICKBOOKS_ACCESS_TOKEN`, `QUICKBOOKS_REALM_ID` |
-| Greenhouse Harvest API | Talent bench (list talent) | `GREENHOUSE_API_TOKEN` |
-| Notion API | Studio Ops documents search | `NOTION_API_TOKEN`, `NOTION_DOCS_DATABASE_ID` |
+| QuickBooks Online | Delivery finance boards / runway | `QUICKBOOKS_ACCESS_TOKEN`, `QUICKBOOKS_REALM_ID` |
+| Greenhouse Harvest API | Web dev bench (list freelance devs) | `GREENHOUSE_API_TOKEN` |
+| Notion API | Program Ops documents search | `NOTION_API_TOKEN`, `NOTION_DOCS_DATABASE_ID` |
 | Stripe Billing | Payouts / invoices (list, get, create, update) | `STRIPE_SECRET_KEY` |
 | Linear GraphQL API | Project tracker (list projects) | `LINEAR_API_KEY` |
 | Asana REST API | Time entries / sprint timers | `ASANA_ACCESS_TOKEN` |
