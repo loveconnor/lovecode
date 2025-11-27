@@ -16,7 +16,7 @@
     "dependencies": {
         "@fluxly/ui": "*",
         "fumadocs-core": "16.0.2",
-        "fumadocs-mdx": "13.0.0",
+        "fumadocs-mdx": "14.0.3",
         "fumadocs-ui": "16.0.2",
         "next": "16.0.0",
         "next-sitemap": "4.2.3",
